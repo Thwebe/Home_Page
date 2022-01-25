@@ -19,26 +19,27 @@
     <h1 align="middle"> Contact Us</h1>
 
     <p>
+        <!-- form for user to enter-->>
         <h2>Please complete the form</h2>
-        <form action="sirthwebe@gmail.com">
+        <form action="www.sirthwebe@gmail.com" method="post">
             <p>
                 Username<br/>
-                <input type="text" name="username" size="15" maxlength="30"/>
+                <input type="text" name="username" required="required" size="15" maxlength="30"/>
             </p>
             
             <p>
                 EmailAddress<br/>
-                <input type="text" name="emailaddress" size="20" maxlength="35"/>
+                <input type="email" name="emailaddress" required="required" size="20" maxlength="35"/>
             </p>
             <p>
                 Subject<br/>
-                <input type="text" name="subject" size ="15" maxlength="35"/>
+                <input type="text" name="subject" required="required" size ="15" maxlength="35"/>
             </p>
             <p>
                 Comment<br/>
                 <textarea name="comments" cols="20" rows="4"></textarea>
             </p>
-            <input type="button" name="button" size="15" value="Subimt">
+            <input type="submit" name="button" size="15" value="Subimt">
         </form>
         
         
