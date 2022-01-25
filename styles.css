@@ -1,6 +1,9 @@
-h1 {
+h1,h2 {
     color: rgb(255,255,255);}
 body{
     background-image: url(C:/Users/User/Downloads/Home_Page.jpg);
 }
- 
+ #paragraph{
+    color: rgb(255,255,255);}
+
+ }
