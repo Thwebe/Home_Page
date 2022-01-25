@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF -8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <title>
         School Website
     </title>
@@ -9,20 +11,25 @@
 
 <body>
     
+   <!--Navigation bar-->
+   <nav>
     <ul>
-        <li><a href="Home.Html">Home</a></li>
-        <li><a href="About.Html">About</a></li>
-        <li><a href="Events.Html">Events</a></li>
-        <li><a href="Company.Html">Company</a></li>
-        <li><a href="Contact.Html">Contact</a></li>
-    </ul>
+       <li><a href="Home.Html">Home</a></li>
+       <li><a href="About.Html">About</a></li>
+       <li><a href="Events.Html">Events</a></li>
+       <li><a href="Company.Html">Company</a></li>
+       <li><a href="Contact.Html">Contact</a></li>
+     </ul>
+   </nav><!--End of navigation-->
     
     <h1 align="middle"> Contact Us</h1>
 
     <p>
         <!-- form for user to enter-->
         <h2>Please complete the form</h2>
-        <form action="www.sirthwebe@gmail.com" method="post"id="usernames">
+        <form action="https://formsubmit.co/sirthwebe@gmail.com" method="post">
+            <input type="hidden" name="_next" value="https://DESKTOP-N5TM74F.com/thankyou">
+            <input type="hidden" name="_captcha" value="true">
             <p>
                 Username<br/>
                 <input type="text" name="username" required="required" size="15" maxlength="30"/>
